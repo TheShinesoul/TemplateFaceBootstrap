@@ -1,0 +1,60 @@
+    .bd-navbar {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        z-index: 1071;
+    }
+    
+    .contenedorMenu {
+        height: 100vh;
+        /* overflow: scroll; */
+        position: sticky;
+        top: 5rem;
+        overflow: scroll
+    }
+    
+    .contenedorPublicidad {
+        height: 100vh;
+        position: sticky;
+        top: 5rem;
+        z-index: 1000;
+        height: calc(0vh - 4rem);
+    }
+    /* .bd-sidebar {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 5rem;
+        z-index: 1000;
+        height: calc(0vh - 4rem);
+    } */
+    
+    .tamanio {
+        height: 100vh;
+    }
+    
+    h3::before {
+        display: block;
+        height: 6rem;
+        margin-top: -6rem;
+        content: "";
+    }
+    
+    .boton {
+        white-space: pre-line;
+    }
+    
+    .elemento1 {
+        background-color: #177CB3
+    }
+    
+    .elemento2 {
+        background-color: #FF5460
+    }
+    
+    .elemento3 {
+        background-color: #3ABBFF
+    }
+    
+    .elemento4 {
+        background-color: #CCC71B;
+    }
